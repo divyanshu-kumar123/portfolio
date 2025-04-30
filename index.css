@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+.container{
+    background-color: black;
+    min-height: 100vh;
+    min-width: 100vh;
+}
+.top-nav{
+    display: flex;
+    list-style: none;
+    font-family: "Inter", serif;
+}
+.top-nav .logo{
+    flex-grow: 1;
+    margin: 13px;
+    margin-top: 30px;
+
+}
+.top-nav .logo span{
+    border: 2px solid white;
+    border-radius: 50px;
+    padding: 15px 25px;
+    font-size: 25px;
+    box-shadow: 2px 2px 6px #ffd380;
+    transition: all 1s ease-out;
+    opacity: 0.8;
+    position: relative;
+}
+.top-nav .logo span:hover{
+    opacity: 1;
+    font-size: 28px;
+    box-shadow: 0px 0px 15px #ffd380;
+    padding: 16px;
+    /*   */
+}
+.top-nav li{
+    padding-top: 30px;
+}
+.top-nav li a{
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Inter", serif;
+    font-weight: 400;
+    padding: 15px 25px;
+    opacity: 0.8;
+}
+.top-nav li a:hover{
+    font-size: 28px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 6px #ffd380;
+    border-radius: 15px;
+    opacity: 1;
+}
+.main-screen{
+    background-image: url(backgroundimg.webp);
+    min-height: 100vh;
+    background-size: cover;  
+}
+.main-screen span{
+    position: absolute;
+}
+.main-screen .span1{
+    font-size: 30px;
+    top: 30vh;
+    left: 30px;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+}
+.main-screen .span2{
+    font-size: 100px;
+    top: 20vh;
+    left:27vh;
+    font-weight: 700;
+}
+.main-screen .span3{
+    font-size: 100px;
+    top: 40vh;
+    left:48vh;
+    font-weight: 700;
+}
+.main-screen .span4{
+    font-size: 50px;
+    top: 49vh;
+    left:130vh;
+    font-weight: 700;
+}
+.main-screen .span5{
+    font-size: 100px;
+    top: 65vh;
+    left:60vh;
+    font-weight: 700;
+}
+.main-screen span:hover{
+    color: #ffd380;
+    cursor: pointer;
+}
+.work{
+    min-height: 100vh;
+    display: flex;
+    margin-top: 10px;
+    padding: 3px;
+}
+.work .work-image{
+    /* border: 2px solid white; */
+    margin: 10px;
+}
+.work .work-image img{
+    margin: 2px;
+}
+/* .work .work-image:hover{
+    box-shadow: 0px 0px 16px #ffd380;
+    margin: 8px 12px;
+} */
+.work .work-text{
+    margin: 10px;
+    padding: 40px 10px 10px 30px;
+    width: 49%;
+    /* height: 70vh; */
+    /* border: 2px solid white;  */
+    border-radius: 15px;
+    font-size: 22px;
+    opacity: 0.9;
+    font-family: "Inter", serif;
+}
+.work .work-text:hover{
+    box-shadow: 0px 0px 16px #ffd380;
+    width: 50%;
+    opacity: 1;
+}
+.work .work-text h1{
+    text-align: center;
+    font-size: 60px;  
+}
+.about{
+    min-height: 100vh;
+    margin-top: 50px;
+    padding: 3px;
+    font-size: 30px;
+    padding: 20px 70px;
+    font-family: "Arial", serif;
+    background: url(about.webp);
+    background-color: #f1f1f1;
+    background-size: cover;
+}
+.about-inside{
+    display: flex;
+}
+.about-inside img{
+    margin-top: 30px;
+    width: 600px;
+    height: 600px;
+    position: relative;
+    left: 70px;
+}
+.about h1{
+    position: absolute;
+    text-align: center;
+    font-size: 70px;
+    border-radius: 10px;
+    font-family: "Atkinson Hyperlegible Mono", serif;
+    font-weight: 600;
+}
+.about h1:hover{
+    color: #ffd380;
+    box-shadow: 0px 0px 16px #ffd380;
+    font-size: 80px;
+}
+.about-inside div{
+    margin-top: 190px;
+    margin-left: 40px;
+}
+.contact{
+    min-height: 100vh;
+    background: url(formimg.jpeg);
+    background-size: cover;
+    display: flex;
+}
+.about-content-left{
+    width: 50%;
+}
+.form-right{
+    width: 50%;
+    padding: 30px;
+}
+.contact form{
+    border: 10px solid black;
+    padding: 20px;
+    background-color: white         ;
+}
+.contact form input{
+    width: 90%;
+    margin: 30px;
+    height: 40px;
+}
